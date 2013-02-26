@@ -1,0 +1,12 @@
+/* phone */
+.column {
+    padding: 1em;
+    float: none;
+    width: 100%;
+    clear: both;
+}
+img {
+    margin: 1.8em 1em 1em 0;
+
+    float: left;
+}

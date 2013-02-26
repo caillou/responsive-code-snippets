@@ -1,0 +1,20 @@
+.image {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 5em;
+    height: 5em;
+    background-color: lightblue;
+}
+
+.side-bar {
+    font-size: 0.7em;
+    float: right;
+    width: 33%;
+    margin: 1em;
+    padding: 1em;
+    border: 0.1em solid #666;
+    background-color: #eee;
+    -webkit-border-radius: 0.5em;
+       -moz-border-radius: 0.5em;
+            border-radius: 0.5em;
+}
