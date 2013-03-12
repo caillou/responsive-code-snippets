@@ -1,0 +1,304 @@
+/* desktop */
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+img {
+    margin: 5em 0 1em 1em;
+    width: 33%;
+    float: right;
+    -webkit-border-radius: 0.2em;
+            border-radius: 0.2em;
+}
+
+html {
+    color: #4A422E;
+}
+
+.greeting {
+    background-color: #F0ECDA;
+
+    margin-top: 1em;
+    padding: 0 1em 1em 1em;
+    border: 0.1em solid #aaa;
+    -webkit-border-radius: 0.5em;
+            border-radius: 0.5em;
+}
+.column {
+    padding: 1em;
+    float: left;
+    width: 33.33%;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 1em;
+}
+
+@media only screen and (min-width: 75px) and (max-width: 150px) {
+  /* phone */
+  html {
+    font-size: 2px;
+  }
+}
+
+@media only screen and (min-width: 150px) and (max-width: 225px) {
+  /* phone */
+  html {
+    font-size: 3px;
+  }
+}
+
+@media only screen and (min-width: 225px) and (max-width: 300px) {
+  /* phone */
+  html {
+    font-size: 4px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+  /* phone */
+  html {
+    font-size: 5px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+  /* phone */
+  html {
+    font-size: 6px;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 525px) {
+  /* phone */
+  html {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (min-width: 525px) and (max-width: 600px) {
+  /* phone */
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 675px) {
+  /* phone */
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (min-width: 675px) and (max-width: 750px) {
+  /* phone */
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 825px) {
+  /* phone */
+  html {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 825px) and (max-width: 900px) {
+  /* phone */
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 975px) {
+  /* phone */
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 975px) and (max-width: 1050px) {
+  /* phone */
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1125px) {
+  /* phone */
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1125px) and (max-width: 1200px) {
+  /* phone */
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1275px) {
+  /* phone */
+  html {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1275px) and (max-width: 1350px) {
+  /* phone */
+  html {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1425px) {
+  /* phone */
+  html {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 1425px) and (max-width: 1500px) {
+  /* phone */
+  html {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1575px) {
+  /* phone */
+  html {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (min-width: 1575px) and (max-width: 1650px) {
+  /* phone */
+  html {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 1725px) {
+  /* phone */
+  html {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (min-width: 1725px) and (max-width: 1800px) {
+  /* phone */
+  html {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1875px) {
+  /* phone */
+  html {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1875px) and (max-width: 1950px) {
+  /* phone */
+  html {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 1950px) and (max-width: 2025px) {
+  /* phone */
+  html {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (min-width: 2025px) and (max-width: 2100px) {
+  /* phone */
+  html {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 2175px) {
+  /* phone */
+  html {
+    font-size: 29px;
+  }
+}
+
+@media only screen and (min-width: 2175px) and (max-width: 2250px) {
+  /* phone */
+  html {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 2250px) and (max-width: 2325px) {
+  /* phone */
+  html {
+    font-size: 31px;
+  }
+}
+
+@media only screen and (min-width: 2325px) and (max-width: 2400px) {
+  /* phone */
+  html {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 2400px) and (max-width: 2475px) {
+  /* phone */
+  html {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (min-width: 2475px) and (max-width: 2550px) {
+  /* phone */
+  html {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (min-width: 2550px) and (max-width: 2625px) {
+  /* phone */
+  html {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 2625px) and (max-width: 2700px) {
+  /* phone */
+  html {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 2700px) and (max-width: 2775px) {
+  /* phone */
+  html {
+    font-size: 37px;
+  }
+}
+
+@media only screen and (min-width: 2775px) and (max-width: 2850px) {
+  /* phone */
+  html {
+    font-size: 38px;
+  }
+}
+
+@media only screen and (min-width: 2850px) and (max-width: 2925px) {
+  /* phone */
+  html {
+    font-size: 39px;
+  }
+}
