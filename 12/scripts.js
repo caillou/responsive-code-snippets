@@ -1,6 +1,9 @@
-/*globals $:false, setTimeout: false, window: false */
+/*globals $:false, window: false */
 
-$(function updateSizes() {
+$(function() { showInfo(); }); // on dom ready
+$(window).on('resize orientationChanged', function() { showInfo(); }); // if something changes
+
+function showInfo() {
     "use strict";
     var fontSize, width;
 
@@ -13,6 +16,4 @@ $(function updateSizes() {
             + "<br/>screen.width: " + window.screen.width
             + "<br/>screen.availWidth: " + window.screen.availWidth
     );
-
-    setTimeout(updateSizes, 100);
-});
+}
