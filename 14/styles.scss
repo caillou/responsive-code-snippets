@@ -1,0 +1,67 @@
+/* desktop */
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+img {
+    margin: 5em 0 1em 1em;
+    width: 33%;
+    float: right;
+    -webkit-border-radius: 0.2em;
+            border-radius: 0.2em;
+}
+
+html {
+    color: #4A422E;
+}
+
+.greeting {
+    background-color: #F0ECDA;
+
+    margin-top: 1em;
+    padding: 0 1em 1em 1em;
+    border: 0.1em solid #aaa;
+    -webkit-border-radius: 0.5em;
+            border-radius: 0.5em;
+}
+.column {
+    padding: 1em;
+    float: left;
+    width: 33.33%;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+@mixin screen($res-min, $res-max)
+{
+    @media only screen and ( min-width: $res-min ) and ( max-width: $res-max )
+    {
+        @content;
+    }
+}
+
+
+// Possible font-sizes
+$fontSizeMin: 2;
+$fontSizeMax: 40;
+
+// Ideal width of Screen
+$idealWidth: 1200px;
+
+// Font size for $idealWidth Screen in px
+$idealWidthFontSize: 16;
+
+@for $i from $fontSizeMin through $fontSizeMax {
+
+  @include screen($idealWidth / $idealWidthFontSize * ($i - 1), $idealWidth / $idealWidthFontSize * $i) { 
+    html {
+      font-size: #{$i}px;
+    }
+  }
+}
